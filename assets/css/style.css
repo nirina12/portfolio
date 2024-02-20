@@ -1,0 +1,31 @@
+* {
+  color: brown;
+  background-color: tomato;
+  background-image: url(../images/background\ picture.webp);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+  border: 3px rgb(22, 21, 21) solid;
+}
+
+photoprofil {
+  width: 60px;
+  height: 120px;
+}
+
+header {
+  background-color: aquamarine;
+}
+
+p {
+  color: blueviolet;
+}
+
+.libelle {
+  color: green;
+}
+
+#indexheader {
+  background-color: chocolate;
+}

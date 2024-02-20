@@ -1,0 +1,15 @@
+.root {
+  background-image: url("../images/brain-5870352_1280.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 97vh;
+}
+section {
+  color: white;
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

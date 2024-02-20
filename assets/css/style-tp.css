@@ -1,0 +1,53 @@
+.root {
+  width: 1175px;
+  height: 540px;
+  background-image: linear-gradient(315deg, #378b29 0%, #40db52 74%);
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 1fr 0.3fr;
+}
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header nav ul :hover {
+  background-color: #ffffff;
+  color: #378b29;
+}
+
+header nav ul li {
+  display: inline;
+  float: right;
+}
+header {
+  background-color: rgb(23, 132, 227);
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  font-size: xx-large;
+  border: 1px #ffffff solid;
+  margin: 10px 10px 10px 10px 10px;
+  padding: 3px 3px 3px 3px;
+}
+
+article:hover {
+  border: 5px #000000 solid;
+  color: #ffffff;
+}
+
+footer {
+  background-color: rgb(20, 50, 140);
+}

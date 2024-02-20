@@ -1,0 +1,72 @@
+.root {
+  width: 99vw;
+  height: 540px;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 1fr 0.2fr;
+}
+
+header nav ul {
+  list-style-type: none;
+  justify-content: center;
+  display: flex;
+}
+
+header nav ul a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#homePortefolio {
+  margin-right: 100px;
+  color: black;
+}
+
+header nav ul li {
+  display: inline;
+  float: left;
+  margin-right: 30px;
+}
+header {
+  background-color: rgb(19, 99, 223);
+}
+
+.contentsectionhome {
+  display: flex;
+
+  width: 85vw;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.3);
+  justify-content: center;
+  align-items: center;
+}
+section img {
+  margin-left: 40px;
+}
+#mesinformations {
+  height: 20vh;
+}
+.banniere {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section div {
+  margin-right: 100px;
+}
+
+footer {
+  background-color: rgb(71, 181, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+footer nav a {
+  margin-right: 10px;
+  color: #ffffff;
+}
